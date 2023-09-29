@@ -380,6 +380,48 @@
     </section>
 
     <!--get updates / modal trigger-->
+    <section class="bg-light">
+        <div class="container">
+            <div class="text-center">
+                <h2>Stay in the Loop</h2>
+                <p class="lead">Get the latest updates as they happen...</p>
+            </div>
+            <div class="row justify-content-center">
+                <div class="col-md-8 text-center">
+                    <p class="text-muted my-4">
+                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Commodi magni nostrum repudiandae mollitia molestias consequatur neque quam at similique nesciunt perspiciatis vero sit, eligendi et, fuga impedit minus recusandae temporibus placeat perferendis deserunt! Repellendus placeat perferendis magnam at consequuntur reprehenderit, quidem veritatis enim aliquid, beatae molestiae animi odit similique maiores?</p>
+                        <button class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#reg-modal">
+                            Register for updates
+                        </button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!--modal iteslf-->
+    <div class="modal fade" id="reg-modal" tabindex="-1" aria-labelledby="modal-title" aria-hidded="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="modal-title">Get the Latest updates</h5>
+                    <button type="button" class="btn-close" data-bs-dimiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloremque odio vero explicabo. Adipisci fugiat ex velit odit amet excepturi consequuntur quasi? At laboriosam deserunt optio delectus porro quo, omnis iusto dolore veniam ullam error, atque id iste fuga consectetur distinctio, earum aliquam ex aut illum eaque. Obcaecati minus eos odio.</p>
+                    <label for="modal-email" class="form-label">Your email address:</label>
+                    <input type="email" class="form-control" id="modal-email" placeholder="example@email.com">
+                </div>
+                <div class="modal-footer">
+                    <button class="btn btn-primary">
+                        Submit
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
     
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"></script>
     <script>
